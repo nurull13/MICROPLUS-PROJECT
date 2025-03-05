@@ -4,13 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inventaris</title>
+    <style>
+        body {
+            text-align: center; 
+            padding: 20px; 
+        }
+        label {
+            display: block; 
+            margin: 15px 0 5px; 
+        }
+        input[type="text"] {
+            width: 15%; 
+            padding: 10px;          
+        }
+        button {
+            padding: 10px 20px; /* Padding di dalam tombol */
+            margin-top: 20px; /* Memberikan jarak di atas tombol */
+        }
+    </style>
 </head>
 <body>
-  <center><h1>Inventaris</h1></center>
-  <center><p>Selamat Datang Di Web Inventaris</p></center>
-  <center><label style="line-height: 35px"> Nama Barang </label><input type=”text”></center>
-  <center><label style="line-height: 25px"> Penerima </label><input type=”text”></center>
-  <center><label style="line-height: 35px"> Pengirim </label> <input type=”text”></center>
-  <center><button type="submit">submit</button></left>
+    <h1>Inventaris</h1>
+    <p>Selamat Datang Di Web Inventaris</p>
+    <label for="nama-barang">Nama Barang</label>
+    <input type="text" id="nama-barang">
+    
+    <label for="penerima">Penerima</label>
+    <input type="text" id="penerima">
+    
+    <label for="pengirim">Pengirim</label>
+    <input type="text" id="pengirim">
+    
+    <center><button type="submit">submit</button></center>
 </body>
 </html>

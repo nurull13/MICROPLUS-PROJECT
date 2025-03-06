@@ -4,37 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inventaris</title>
-    <style>
-        body {
-            text-align: center; 
-            padding: 20px; 
-        }
-        label {
-            display: block; 
-            margin: 15px 0 5px; 
-        }
-        input[type="text"] {
-            width: 15%; 
-            padding: 10px;          
-        }
-        button {
-            padding: 10px 20px; /* Padding di dalam tombol */
-            margin-top: 20px; /* Memberikan jarak di atas tombol */
-        }
-    </style>
 </head>
 <body>
-    <h1>Inventaris</h1>
-    <p>Selamat Datang Di Web Inventaris</p>
-    <label for="nama-barang">Nama Barang</label>
-    <input type="text" id="nama-barang">
-    
-    <label for="penerima">Penerima</label>
-    <input type="text" id="penerima">
-    
-    <label for="pengirim">Pengirim</label>
-    <input type="text" id="pengirim">
-    
-    <center><button type="submit">submit</button></center>
+    <center>
+        <h1>Inventaris</h1> 
+        <p>Selamat Datang Di Web Inventaris</p>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="nama-barang">Nama Barang</label>
+                    </td>
+                    <td> 
+                        <input type="text" id="nama-barang">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="penerima">Penerima</label>
+                    </td>
+                    <td>
+                        <input type="text" id="penerima">    
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pengirim">Pengirim</label>
+                    </td>
+                    <td>
+                        <input type="text" id="pengirim">
+                    </td>
+                <tr>
+                    <td colspan="2"style="text-align: center;">
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>    
+    </center>
+</table>
+        <h2>Inventaris History</h2>
+        <table border="1">
+            <tr>
+                <th>No</th>
+                <th>Nama Barang</th>
+                <th>Qty</th>
+                <th>Pengirim</th>
+                <th>Penerima</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><label for="Nama Barang">Ultrasonic Sensor</label></td>
+                <td><label for="Qty">5</label></td>
+                <td><label for="Pengirim">Microplus</label></td>
+                <td><label for="Penerima">Sein</label></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><label for="Nama Barang">Infrared Sensor</label></td>
+                <td><label for="Qty">2</label></td>
+                <td><label for="Pengirim">Microplus</label></td>
+                <td><label for="Penerima">Sein</label></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><label for="Nama Barang">THS 100</label></td>
+                <td><label for="Qty">1</label></td>
+                <td><label for="Pengirim">Microplus</label></td>
+                <td><label for="Penerima">Sein</label></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><label for="Nama Barang">Flowmeter Sensor</label></td>
+                <td><label for="Qty">7</label></td>
+                <td><label for="Pengirim">Microplus</label></td>
+                <td><label for="Penerima">Sein</label></td>
+            </tr>
+</table>
 </body>
 </html>
